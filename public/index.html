@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+    <title>Academia–Industry Collaboration</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+         TOP NAVIGATION
+         ========================================================= -->
+
+    <header class="topbar">
+
+        <a class="brand" href="#home">
+
+            <span class="brand-mark">
+                S
+            </span>
+
+            <span>
+                setu
+
+                <small>
+                    Academia × Industry
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav aria-label="Main navigation">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#assessment">
+                Skill Map
+            </a>
+
+            <a href="#opportunities">
+                Opportunities
+            </a>
+
+            <a href="#industry">
+                For Industry
+            </a>
+
+        </nav>
+
+
+        <button
+            class="profile-switch"
+            id="profileSwitch"
+            aria-label="Switch profile"
+        >
+            AS
+            <span>
+                Aarav Sharma
+            </span>
+        </button>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+         ========================================================= -->
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO SECTION
+             ===================================================== -->
+
+        <section
+            id="home"
+            class="hero section"
+        >
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    MINISTRY OF AYUSH · CAREER ECOSYSTEM
+                </p>
+
+                <h1>
+                    Turn your skills into
+                    <em>meaningful</em>
+                    opportunities.
+                </h1>
+
+                <p>
+                    Setu connects students, academia, and industry
+                    through transparent skill mapping, learning
+                    pathways, internships, and placements.
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a
+                        class="button primary"
+                        href="#assessment"
+                    >
+                        Map my skills
+                        <span>→</span>
+                    </a>
+
+                    <a
+                        class="button quiet"
+                        href="#opportunities"
+                    >
+                        Explore opportunities
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="stat-row"
+                    id="stats"
+                >
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="rings">
+
+                    <div class="ring ring-1">
+                    </div>
+
+                    <div class="ring ring-2">
+                    </div>
+
+                    <div class="ring ring-3">
+                    </div>
+
+
+                    <div class="orbit-label label-one">
+                        Skills
+                    </div>
+
+                    <div class="orbit-label label-two">
+                        Industry
+                    </div>
+
+                    <div class="orbit-label label-three">
+                        Growth
+                    </div>
+
+
+                    <div class="center-dot">
+                        YOU
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card">
+
+                    <span class="mini-icon">
+                        ✦
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Career readiness
+                        </strong>
+
+                        <b id="heroReadiness">
+                            65%
+                        </b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             TRUST SECTION
+             ===================================================== -->
+
+        <section class="trust section">
+
+            <p>
+                BUILDING BRIDGES ACROSS THE ECOSYSTEM
+            </p>
+
+            <div>
+
+                <span>
+                    Students
+                </span>
+
+                <span>
+                    Academia
+                </span>
+
+                <span>
+                    Industry
+                </span>
+
+                <span>
+                    Mentors
+                </span>
+
+                <span>
+                    AYUSH
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DASHBOARD SECTION
+             ===================================================== -->
+
+        <section
+            id="dashboard"
+            class="section dashboard"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        YOUR CAREER COMPASS
+                    </p>
+
+                    <h2>
+                        See where you stand.
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="text-button"
+                    onclick="showSection('assessment')"
+                >
+                    Retake assessment →
+                </button>
+
+            </div>
+
+
+            <div
+                id="profileGrid"
+                class="profile-grid"
+            >
+
+                <div class="loading">
+                    Loading your skill profile…
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ASSESSMENT SECTION
+             ===================================================== -->
+
+        <section
+            id="assessment"
+            class="section assessment-section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        SKILL ASSESSMENT
+                    </p>
+
+                    <h2>
+                        Build your skill map.
+                    </h2>
+
+                    <p>
+                        Rate your confidence today. There are no
+                        right answers—honest input creates better
+                        recommendations.
+                    </p>
+
+                </div>
+
+
+                <span class="step-chip">
+                    8 questions · 4 minutes
+                </span>
+
+            </div>
+
+
+            <form
+                id="assessmentForm"
+                class="assessment-form"
+            >
+
+                <div
+                    id="questions"
+                    class="questions"
+                >
+                </div>
+
+
+                <div class="assessment-footer">
+
+                    <p>
+                        1 = Getting started ·
+                        3 = Comfortable ·
+                        5 = Can mentor others
+                    </p>
+
+                    <button
+                        class="button primary"
+                        type="submit"
+                    >
+                        Create my skill profile →
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- =====================================================
+             OPPORTUNITIES SECTION
+             ===================================================== -->
+
+        <section
+            id="opportunities"
+            class="section opportunities-section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        PERSONALISED FOR YOU
+                    </p>
+
+                    <h2>
+                        Opportunities within reach.
+                    </h2>
+
+                    <p>
+                        Matches are based on your current skills
+                        and career interests—not a black box.
+                    </p>
+
+                </div>
+
+
+                <div class="filters">
+
+                    <button
+                        class="filter active"
+                        data-filter="All"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="Internship"
+                    >
+                        Internships
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="Entry-level job"
+                    >
+                        Jobs
+                    </button>
+
+                    <button
+                        class="filter"
+                        data-filter="Apprenticeship"
+                    >
+                        Apprenticeships
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div
+                id="matches"
+                class="opportunity-grid"
+            >
+
+                <div class="loading">
+                    Finding relevant opportunities…
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INDUSTRY SECTION
+             ===================================================== -->
+
+        <section
+            id="industry"
+            class="section industry-section"
+        >
+
+            <div class="industry-copy">
+
+                <p class="eyebrow">
+                    FOR INDUSTRY PARTNERS
+                </p>
+
+                <h2>
+                    Find talent with the skills your teams need.
+                </h2>
+
+                <p>
+                    Describe the opportunity and its required skills.
+                    Setu makes relevant student matches discoverable
+                    to your organisation.
+                </p>
+
+
+                <ul>
+
+                    <li>
+                        Skill-first, fair matching
+                    </li>
+
+                    <li>
+                        Clear capability profiles
+                    </li>
+
+                    <li>
+                        Internships, projects & entry-level roles
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <form
+                id="opportunityForm"
+                class="publish-form"
+            >
+
+                <h3>
+                    Post an opportunity
+                </h3>
+
+
+                <label>
+
+                    Role title
+
+                    <input
+                        required
+                        name="title"
+                        placeholder="e.g. Data Analyst Intern"
+                    >
+
+                </label>
+
+
+                <label>
+
+                    Organisation
+
+                    <input
+                        required
+                        name="company"
+                        placeholder="Your organisation"
+                    >
+
+                </label>
+
+
+                <div class="two-col">
+
+                    <label>
+
+                        Type
+
+                        <select
+                            required
+                            name="type"
+                        >
+
+                            <option>
+                                Internship
+                            </option>
+
+                            <option>
+                                Project
+                            </option>
+
+                            <option>
+                                Apprenticeship
+                            </option>
+
+                            <option>
+                                Entry-level job
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Location
+
+                        <input
+                            required
+                            name="location"
+                            placeholder="Remote / City"
+                        >
+
+                    </label>
+
+                </div>
+
+
+                <div class="two-col">
+
+                    <label>
+
+                        Duration
+
+                        <input
+                            required
+                            name="duration"
+                            placeholder="e.g. 12 weeks"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Domain
+
+                        <select
+                            required
+                            name="domain"
+                        >
+
+                            <option>
+                                Digital Health
+                            </option>
+
+                            <option>
+                                Clinical Research
+                            </option>
+
+                            <option>
+                                Public Health
+                            </option>
+
+                            <option>
+                                Wellness
+                            </option>
+
+                        </select>
+
+                    </label>
+
+                </div>
+
+
+                <label>
+
+                    Required skills
+
+                    <span class="hint">
+                        choose one or more
+                    </span>
+
+                    <div
+                        class="skill-checks"
+                        id="skillChecks"
+                    >
+                    </div>
+
+                </label>
+
+
+                <label>
+
+                    Brief description
+
+                    <textarea
+                        required
+                        name="description"
+                        rows="3"
+                        placeholder="What will the candidate work on?"
+                    ></textarea>
+
+                </label>
+
+
+                <button
+                    class="button primary"
+                    type="submit"
+                >
+                    Publish opportunity →
+                </button>
+
+
+                <p
+                    id="publishMessage"
+                    class="form-message"
+                    role="status"
+                >
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <!-- =====================================================
+             CTA SECTION
+             ===================================================== -->
+
+        <section class="cta section">
+
+            <p class="eyebrow">
+                READY TO TAKE THE NEXT STEP?
+            </p>
+
+            <h2>
+                A clearer path from campus to contribution.
+            </h2>
+
+            <a
+                class="button light"
+                href="#assessment"
+            >
+                Start your skill map →
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+
+    <footer>
+
+        <span>
+            © 2026 Setu · Academia–Industry Collaboration Portal
+        </span>
+
+        <span>
+            Designed for more equitable early-career access
+        </span>
+
+    </footer>
+
+
+    <!-- =========================================================
+         TOAST NOTIFICATION
+         ========================================================= -->
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+    >
+    </div>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+         ========================================================= -->
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

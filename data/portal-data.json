@@ -1,0 +1,216 @@
+{
+  "students": [
+    {
+      "id": "stu-001",
+      "name": "Shivansh ",
+      "course": "B.Tech Computer Science",
+      "institute": "National Institute of Technology",
+      "interests": [
+        "Data Analytics",
+        "Digital Health"
+      ],
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      },
+      "certifications": [
+        "Python Foundations"
+      ],
+      "projects": 2
+    },
+    {
+      "id": "stu-002",
+      "name": "kunal",
+      "course": "B.Pharm",
+      "institute": "Institute of Pharmaceutical Sciences",
+      "interests": [
+        "Clinical Research",
+        "Digital Health"
+      ],
+      "skills": {
+        "communication": 4,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 2,
+        "sql": 2,
+        "dataAnalysis": 3,
+        "webDevelopment": 1,
+        "ayushDomain": 4
+      },
+      "certifications": [
+        "Good Clinical Practice"
+      ],
+      "projects": 1
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-001",
+      "title": "Health Data Analytics Intern",
+      "company": "AyurData Labs",
+      "type": "Internship",
+      "location": "Bengaluru / Hybrid",
+      "duration": "12 weeks",
+      "stipend": "₹15,000/month",
+      "description": "Analyse anonymised wellness datasets and create decision-ready dashboards.",
+      "skills": [
+        "python",
+        "sql",
+        "dataAnalysis",
+        "communication"
+      ],
+      "domain": "Digital Health",
+      "posted": "2026-08-28"
+    },
+    {
+      "id": "opp-002",
+      "title": "AYUSH Research Associate",
+      "company": "Swasthya Research Foundation",
+      "type": "Entry-level job",
+      "location": "New Delhi",
+      "duration": "Full-time",
+      "stipend": "₹4.8–6 LPA",
+      "description": "Support evidence synthesis, documentation, and research operations.",
+      "skills": [
+        "ayushDomain",
+        "communication",
+        "problemSolving"
+      ],
+      "domain": "Clinical Research",
+      "posted": "2026-08-30"
+    },
+    {
+      "id": "opp-003",
+      "title": "Frontend Project Trainee",
+      "company": "Nirog Digital",
+      "type": "Apprenticeship",
+      "location": "Remote",
+      "duration": "16 weeks",
+      "stipend": "₹12,000/month",
+      "description": "Build accessible web experiences for preventive-care workflows.",
+      "skills": [
+        "webDevelopment",
+        "communication",
+        "teamwork"
+      ],
+      "domain": "Digital Health",
+      "posted": "2026-08-25"
+    },
+    {
+      "id": "opp-004",
+      "title": "Community Health Innovation Fellow",
+      "company": "Arogya Collective",
+      "type": "Project",
+      "location": "Pune",
+      "duration": "8 weeks",
+      "stipend": "₹20,000 total",
+      "description": "Design a field-ready health education intervention with mentors.",
+      "skills": [
+        "ayushDomain",
+        "teamwork",
+        "problemSolving",
+        "communication"
+      ],
+      "domain": "Public Health",
+      "posted": "2026-08-22"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "ass-1788368104168",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-02T16:55:04.168Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 4,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    },
+    {
+      "id": "ass-1788368388998",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-02T16:59:48.998Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 4,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    },
+    {
+      "id": "ass-1788368394271",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-02T16:59:54.271Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    },
+    {
+      "id": "ass-1788420273682",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-03T07:24:33.682Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    },
+    {
+      "id": "ass-1788421104677",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-03T07:38:24.677Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    },
+    {
+      "id": "ass-1788421143001",
+      "studentId": "stu-001",
+      "completedAt": "2026-09-03T07:39:03.001Z",
+      "skills": {
+        "communication": 3,
+        "teamwork": 4,
+        "problemSolving": 3,
+        "python": 4,
+        "sql": 3,
+        "dataAnalysis": 2,
+        "webDevelopment": 2,
+        "ayushDomain": 2
+      }
+    }
+  ]
+}

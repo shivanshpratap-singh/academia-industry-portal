@@ -1,0 +1,9 @@
+skill_id,skill_name,category,industry_relevance,learning_recommendation
+python,Python,Technical,Digital Health; Analytics,Python for Data Analysis
+sql,SQL,Technical,Health Analytics; Research,SQL for Health Data
+dataAnalysis,Data Analysis,Technical,Digital Health; Public Health,Data Visualisation & Dashboards
+webDevelopment,Web Development,Technical,Health Technology,Responsive Web Foundations
+ayushDomain,AYUSH Domain Knowledge,Domain,Research; Wellness,Introduction to AYUSH Research
+communication,Communication,Soft Skill,All industries,Professional Communication
+teamwork,Teamwork,Soft Skill,All industries,Collaborative Project Practices
+problemSolving,Problem Solving,Soft Skill,All industries,Design Thinking for Health
